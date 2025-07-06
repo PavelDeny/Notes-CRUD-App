@@ -1,32 +1,22 @@
-Notes CRUD App (React + Zustand)
+# 📝 Notes CRUD App (React + Zustand)
+
 A minimalistic note-taking app built with:
 
-React 18 + TypeScript
+- ⚛️ **React 18** + **TypeScript**
+- 🐻 **Zustand** for state management
+- 🎨 **Tailwind CSS** for styling
+- 💫 **Framer Motion** for animations
+- 💾 **localStorage** for persistence
 
-Zustand for state management
+---
 
-Tailwind CSS for styling
+## ✨ Features
 
-Framer Motion for animations
+- ➕ Create new notes  
+- 📝 Edit existing notes  
+- ❌ Delete notes  
+- 📦 Persist notes in browser's `localStorage`  
+- 🧈 Smooth animations for better UX  
 
-localStorage for persistence
 
-Features
-Create new notes
 
-Edit existing notes
-
-Delete notes
-
-Persist notes in browser's localStorage
-
-Animations for better UX
-
-Folder Structure
-src/
-├── App.tsx
-├── store.ts
-├── components/
-│ ├── Note.tsx
-│ ├── NoteForm.tsx
-│ └── NotesList.tsx
